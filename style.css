@@ -7,19 +7,24 @@ body {
     justify-content: center;
     align-items: center;
     font-family: consolas;
+    flex-wrap: wrap;
+
 }
 
 
 .container {
-    width: 1000px;
+    width: 90%;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .container .card {
     position: relative;
     cursor: pointer;
+    margin-right: 25px;
 }
 
 .container .card .face {
@@ -102,3 +107,4 @@ body {
     background-color: #333;
     color: #fff;
 }
+
